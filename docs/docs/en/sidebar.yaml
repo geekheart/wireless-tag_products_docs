@@ -88,3 +88,14 @@ items:
         file: WT99C262-SG3/wifi_to_lora_transparent.md
       - label: BLE to LoRa Transparent Transmission Example
         file: WT99C262-SG3/ble_to_lora_transparent.md
+
+- label: WT9932P4-TINY
+  items:
+  - label: Board Features
+    file: WT9932P4-TINY/board_features.md
+  - label: Board Resources
+    file: WT9932P4-TINY/board_resources.md
+  - label: Getting Started
+    items:
+    - label: Getting Started Guide
+      file: WT9932P4-TINY/getting_started.md

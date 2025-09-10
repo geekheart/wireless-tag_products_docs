@@ -88,3 +88,14 @@ items:
       file: WT99C262-SG3/wifi_to_lora_transparent.md
     - label: BLE 转 lora 透传例程
       file: WT99C262-SG3/ble_to_lora_transparent.md
+
+- label: WT9932P4-TINY
+  items:
+  - label: 开发板功能介绍
+    file: WT9932P4-TINY/board_features.md
+  - label: 开发板相关资料
+    file: WT9932P4-TINY/board_resources.md
+  - label: 入门指南
+    items:
+    - label: 新手指南
+      file: WT9932P4-TINY/getting_started.md
