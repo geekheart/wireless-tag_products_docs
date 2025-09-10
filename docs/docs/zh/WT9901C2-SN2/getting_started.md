@@ -1,5 +1,5 @@
 ---
-title: WT9901C2-SN2 入门演示
+title: WT9901C2-SN2 新手指南
 tags: WT9901C2-SN2, esp32c2
 keywords: WT9901C2-SN2, esp32c2, ESP32C2, esp32-c2, ESP32-C2
 update:
