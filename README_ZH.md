@@ -29,10 +29,10 @@ teedoc build
 
 ### 文件位置
 
-页面结构样式路径：`./layout/home.html`
-页面样式路径：`./layout/style.html`
-页面数据路径：`./static/data/home.json`
-页面静态资源路径：`./static/home`
+- 页面结构样式路径：`./layout/home.html`
+- 页面样式路径：`./layout/style.html`
+- 页面数据路径：`./static/data/home.json`
+- 页面静态资源路径：`./static/home`
 
 ### 如何添加新的横幅内容
 
