@@ -68,6 +68,13 @@
       "description": "ESP32-C2+lora开发板",
       "link": "/docs/zh/WT99C262-SG3/board_features.html",
       "linkText": "查看详情"
+    },
+    {
+      "title": "WT9932P4-TINY",
+      "img": "/static/home/WT9932P4-TINY.png",
+      "description": "ESP32P4口袋开发板",
+      "link": "/docs/zh/WT9932P4-TINY/board_features.html",
+      "linkText": "查看详情"
     }
   ]
 }
