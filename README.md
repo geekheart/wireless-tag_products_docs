@@ -147,3 +147,81 @@ Product documentation uses **Markdown** format. After compilation, the result wi
    - **content**: a brief summary of the update
 
 2. Since the document title already occupies the H1 level, content should start from H2 headings.
+
+### board_features.md Document Template
+
+```markdown
+Omit header section
+
+## Introduction
+
+<Introduction text>
+
+---
+
+### 🔧 Core Hardware Configuration
+
+<Description of core hardware configuration>
+
+---
+
+### 🛠️ Design Features
+
+<Description of design features>
+
+---
+
+### 📡 Main Application Scenarios
+
+<Description of main application scenarios>
+
+---
+
+### ⚙️ Development Advantages
+
+<Description of development advantages>
+
+---
+
+## Pin Description
+
+<Pin description>
+
+---
+
+## Power Characteristics
+
+<Power description>
+
+```
+- **Introduction text**: a short paragraph introducing the product  
+- **Core hardware configuration**: use an unordered list to describe hardware features  
+- **Design features**: use an ordered list to describe design features  
+- **Main application scenarios**: use an unordered list to describe application scenarios  
+- **Development advantages**: use an unordered list to compare advantages of the development board against other products  
+- **Pin description**: use a table to describe pin functions  
+- **Power description**: explain power supply methods  
+
+---
+
+### board_resources.md Document Template
+
+```markdown
+Omit header section
+
+## <Product Name> Schematic
+
+<iframe src="/docs/assets/<resource_path>#toolbar=0&navpanes=0" width="100%" height="1000px" style="border:none;"></iframe>
+
+[📥 Download PDF](/docs/assets/<resource_path>)
+```
+
+- **PDF documents**: PDF files can be previewed with the HTML `<iframe>` tag for a better effect. Add a download link below for convenience.  
+- **Other resources**: provide a simple hyperlink for download.  
+
+---
+
+### getting_started.md Document Content
+
+1. Provide a firmware flashing tutorial  
+2. Briefly explain how to compile the example projects  
