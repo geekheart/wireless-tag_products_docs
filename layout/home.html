@@ -47,9 +47,7 @@
       class="rounded-xl shadow hover:shadow-lg transition"
       :title="card.title"
     >
-      <div class="aspect-w-1 aspect-h-1 mb-3 rounded overflow-hidden">
-        <img :src="card.img" class="w-full h-full object-cover" />
-      </div>
+      <img :src="card.img" class="w-full h-full object-cover" @click.stop="go(card.link)"/>
       <div class="text-sm text-gray-600 mb-3">{[ card.description ]}</div>
       <a
         :href="card.link"
@@ -72,6 +70,15 @@
           cards: [],
         },
       };
+    },
+    methods: {
+      go(url) {
+        // 当前页面跳转
+        window.location.href = url;
+
+        // 如果你希望在新标签页打开，用这行替换：
+        // window.open(url, "_blank");
+      },
     },
     mounted() {
       fetch("/static/data/home.json")
